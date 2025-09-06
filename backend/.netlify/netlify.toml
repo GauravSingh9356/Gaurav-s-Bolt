@@ -1,0 +1,26 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/gaurase/learnings/GenAI/genai-js-1.0/projects/website-maker/backend"
+publishOrigin = "default"
+base = "/Users/gaurase/learnings/GenAI/genai-js-1.0/projects/website-maker/backend"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
