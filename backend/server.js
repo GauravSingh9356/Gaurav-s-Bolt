@@ -11,9 +11,8 @@ app.use(express.json());
 app.use(cors());
 app.use(configDotenv)
 
-// ✅ Replace with your Netlify token
-const NETLIFY_TOKEN = "nfp_sycBq2bYQQ4Pir5FEqsi5jeZUScr27mV04e8";
-const NETLIFY_SITE_ID = "72bd2fc4-a294-4ef9-a383-702c14d310a6";
+// ✅ Replace with your Netlify SITE_ID
+const NETLIFY_SITE_ID = "<Add_Your_Netflify_Project_Id/>"
 
 app.post("/generate-site", async (req, res) => {
   const { prompt } = req.body;
